@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Poema_Honor">
+<TextView
+    android:id="@+id/txt_Honor"
+    android:text="HONOR"
+    android:textAlignment="center"
+    android:textSize="25sp"
+    android:textStyle="bold"
+    android:layout_marginTop="25sp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    />
+    <ImageView
+        android:id="@+id/img_Honor"
+        android:background="@drawable/ic_honor"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20sp"
+        android:layout_below="@id/txt_Honor"
+        />
+
+    <LinearLayout
+    android:id="@+id/lLBase"
+    android:layout_below="@id/img_Honor"
+    android:layout_width="match_parent"
+    android:layout_marginLeft="20sp"
+    android:layout_marginRight="20sp"
+    android:layout_height="350sp">
+
+    <ScrollView
+    android:id="@+id/scv_Honor"
+    android:layout_marginTop="15sp"
+    android:layout_below="@id/img_Honor"
+    android:layout_marginLeft="20sp"
+    android:layout_marginRight="20sp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+<TextView
+    android:id="@+id/txtHonor"
+    android:text="Libertad es tu lema, en cautiverio no puedes habitar, prefieres muerte.
+    Es por ello que tú nos representas, ¡nuestro amado Quetzal!.
+    Tu pecho rojo nos recuerda el día que fuera muerto el héroe nacional, Tecún Umán quien muriera en cruel batalla ¡en defensa de nuestra libertad!
+    Vuela libre en las montañas de esta tierra,Ave símbolo de belleza singular, alzaremos por siempre el estandarte del sagrado principio: ¡LIBERTAD!"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="30sp"
+    android:textAlignment="textStart"
+    />
+            </RelativeLayout>
+
+        </ScrollView>
+
+</LinearLayout>
+
+<Button
+    android:id="@+id/btn_Honor"
+    android:text="Salir"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="15sp"
+    android:layout_below="@id/lLBase"
+    android:layout_centerHorizontal="true"
+    android:onClick="salirH"
+/>
+
+
+</RelativeLayout>

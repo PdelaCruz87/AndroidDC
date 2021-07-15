@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Poema_Amor">
+<TextView
+    android:id="@+id/txt_Amor"
+    android:text="AMOR"
+    android:textAlignment="center"
+    android:textSize="25sp"
+    android:textStyle="bold"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="30sp"
+    />
+    <ImageView
+        android:id="@+id/img_Amor"
+        android:layout_below="@id/txt_Amor"
+        android:layout_marginTop="20sp"
+        android:background="@drawable/ic_amor"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:layout_centerHorizontal="true"
+        />
+    <ScrollView
+        android:id="@+id/scv_Amor"
+        android:layout_marginRight="20sp"
+        android:layout_marginLeft="20sp"
+        android:layout_below="@id/img_Amor"
+        android:layout_width="match_parent"
+        android:layout_height="350sp">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+<TextView
+    android:id="@+id/txt_Poema_Amor"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Guatemala, ¡Tierra mía! el lugar donde nací,
+                    hoy traigo con alegría una canción para ti.
+                    Guatemala, tierra hermosa, de belleza sin igual,
+                    eres cual perla preciosa por tu riqueza ancestral.
+
+                    Cuatro razas en tu suelo:
+                    Garífuna, Xinca, Maya y Ladinos, que con celo,
+                    velaremos que paz haya.
+
+                    Y así todos como hermanos en la tierra del Quetzal
+                    forjaremos con las manos el progreso nacional."
+    android:textAlignment="textStart"
+    android:textSize="30sp"
+    />
+
+        </LinearLayout>
+
+    </ScrollView>
+    <Button
+        android:id="@+id/btn_SalirA"
+        android:text="Salir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="sAmor"
+        android:layout_below="@id/scv_Amor"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15sp"
+        />
+</RelativeLayout>

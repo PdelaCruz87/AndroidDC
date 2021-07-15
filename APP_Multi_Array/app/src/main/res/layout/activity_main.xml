@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txt_Inicio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="75sp"
+        android:text="INICIO"
+        android:textAlignment="center"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/txt_Nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_Inicio"
+        android:layout_marginLeft="15sp"
+        android:layout_marginTop="20sp"
+        android:layout_marginRight="15sp"
+        android:hint="Ingrese Nombre"
+        android:textAlignment="viewStart" />
+
+    <EditText
+        android:id="@+id/txt_Edad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_Nombre"
+        android:layout_marginLeft="15sp"
+        android:layout_marginTop="15sp"
+        android:layout_marginRight="15sp"
+        android:hint="Ingrese Edad"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btn_Validar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_Edad"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100sp"
+        android:onClick="Arrays"
+        android:text="ENTRAR" />
+
+    <Button
+        android:id="@+id/btn_Salir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_Validar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50sp"
+        android:backgroundTint="#EE0038"
+        android:onClick="Arrays"
+        android:text="SALIR" />
+</RelativeLayout>

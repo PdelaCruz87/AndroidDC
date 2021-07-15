@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/imglista"
+        android:layout_width="55sp"
+        android:layout_height="55sp"
+        android:layout_margin="25sp"
+        android:src="@drawable/ic_calendary" />
+
+    <TextView
+        android:id="@+id/txtLista"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25sp"
+        android:layout_toRightOf="@+id/imglista"
+        android:text="Ejemplo"
+        android:textColor="@color/black"
+        android:textSize="25sp" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtLista"
+        android:layout_marginTop="5sp"
+        android:layout_toRightOf="@+id/imglista"
+        android:text="2021"
+        android:textColor="@color/black"
+        android:textSize="25sp" />
+
+
+</RelativeLayout>

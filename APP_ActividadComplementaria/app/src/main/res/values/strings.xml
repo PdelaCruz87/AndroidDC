@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Repaso</string>
+
+    <string name="texto1">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo et tellus vitae pellentesque. Proin sodales lorem quis vulputate viverra. Curabitur metus arcu, imperdiet eu nibh nec, semper pharetra massa. Vestibulum rhoncus velit id sapien dignissim congue. Sed dictum, lacus eu vestibulum mattis, ex lectus dignissim quam, a interdum risus nunc a enim. Nunc id mauris justo. Fusce pellentesque ex non odio varius, quis tincidunt turpis aliquam. Sed ornare, nisi sit amet accumsan consequat, ligula nisl pellentesque lorem, sit amet sagittis massa metus a justo. In quis viverra tellus, ac convallis diam. Maecenas pretium sit amet mi eget tempus. Phasellus blandit commodo ipsum in sollicitudin.
+
+    </string>
+</resources>

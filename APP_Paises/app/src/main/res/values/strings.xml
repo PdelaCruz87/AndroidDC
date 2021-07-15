@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">APP_Paises</string>
+
+    <string name="dato1">
+    La población de Brasil es 210,147,000 personas.
+
+</string>
+    <string name="dato2">
+    La población de China es 1,400,050,000 personas.
+
+</string>
+    <string name="dato3">
+    La población de Estados Unidos es 328,461,000 personas.
+
+</string>
+    <string name="dato4">
+    La población de Francia es 67,320,216 personas.
+
+</string>
+    <string name="dato5">
+        La población de Alemania es 80,651,753 personas.
+
+</string>
+    <string name="dato6">
+    La población de Guatemala es 18,297,896 personas.
+
+</string>
+    <string name="dato7">
+    La población de Italia es 59,641,488 personas.
+
+</string>
+    <string name="dato8">
+    La población de México es 126,014,024 personas.
+
+</string>
+    <string name="dato9">
+    La población de España es 47,332,614 personas.
+
+</string>
+    <string name="dato10">
+    La población de Reino Unido es 66,647,112 personas.
+
+</string>
+
+
+</resources>

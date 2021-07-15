@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Detalle">
+
+    <TextView
+        android:id="@+id/txtdesglose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="75sp"
+        android:text="DESGLOSE DE AÑO"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtsi_no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="25sp"
+        android:text="El año es bisiesto SI/NO:"
+        android:textAlignment="textStart"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/txtmes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="25sp"
+        android:text="Los meses del año son: "
+        android:textAlignment="textStart"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/txtsemana"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="25sp"
+        android:text="Las semanas del año son: "
+        android:textAlignment="textStart"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/txtdias"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="25sp"
+        android:text="Los días del año son"
+        android:textAlignment="textStart"
+        android:textSize="25sp" />
+
+
+</LinearLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txt_Titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guatemala"
+        android:textStyle="italic"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:layout_marginTop="25sp"
+        />
+    <ImageView
+        android:id="@+id/img_Bandera"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:layout_below="@+id/txt_Titulo"
+        android:layout_marginTop="25sp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/ic_guatemala"
+        />
+    <Button
+        android:id="@+id/btn_Honor"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:layout_marginTop="25sp"
+        android:layout_below="@+id/img_Bandera"
+        android:text="Honor"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:onClick="Poema"
+        />
+    <Button
+        android:id="@+id/btn_Lealtad"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:layout_marginTop="25sp"
+        android:layout_below="@id/btn_Honor"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@android:color/white"
+        android:textColor="@color/black"
+        android:text="Lealtad"
+        android:onClick="Poema"
+
+/>
+    <Button
+        android:id="@+id/btn_Amor"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:layout_below="@id/btn_Lealtad"
+        android:backgroundTint="@android:color/holo_blue_light"
+        android:text="Amor"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25sp"
+        android:onClick="Poema"
+        />
+
+
+</RelativeLayout>

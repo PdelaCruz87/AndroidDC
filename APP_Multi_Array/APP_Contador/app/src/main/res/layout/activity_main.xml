@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contador de pulsos"
+        android:textSize="35sp"
+        android:gravity="center"
+        android:layout_marginTop="85sp"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtContador"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="100sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="150sp"
+
+        />
+    <Button
+        android:id="@+id/btnMas"
+        android:layout_width="120sp"
+        android:layout_height="wrap_content"
+        android:text="+"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/txtContador"
+        android:layout_marginTop="150sp"
+        android:layout_marginLeft="40sp"
+        android:backgroundTint="@android:color/holo_blue_bright"
+        android:onClick="pulsar"
+        />
+    <Button
+        android:id="@+id/btnMenos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/txtContador"
+        android:layout_marginTop="150sp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="40sp"
+        android:backgroundTint="@android:color/holo_blue_bright"
+        android:onClick="pulsar"
+        />
+
+    <Button
+        android:id="@+id/btnReinicio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reinicio"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:layout_below="@id/txtContador"
+        android:layout_marginTop="220sp"
+        android:layout_marginLeft="125sp"
+        android:backgroundTint="@color/cardview_dark_background"
+        android:onClick="pulsar"
+        />
+    </RelativeLayout>
+
+    </ScrollView>
+
+    </RelativeLayout>

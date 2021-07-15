@@ -1,0 +1,4 @@
+#Tue Jun 22 20:02:12 CST 2021
+base.0=C\:\\Users\\Lineas\\AndroidStudioProjects\\CursoJava3\\APP_Traslado_Datos\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
