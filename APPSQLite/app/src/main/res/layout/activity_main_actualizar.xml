@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivityActualizar">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="25sp"
+        android:text="ACTUALIZAR MASCOTA"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/edtbuscarMascotaActualizar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10sp"
+            android:hint="Ingrese ID a buscar"
+            android:inputType="number"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/btnbuscarMascotaActualizar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:backgroundTint="#E30000"
+            android:onClick="onClick"
+            android:text="BUSCAR"
+            android:textSize="18sp" />
+
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/edtNombreActualizar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:hint="..."
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/edtRazaActualizar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:hint="..."
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/edtColorActualizar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:hint="..."
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/edtEdadActualizar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:hint="..."
+        android:inputType="number"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/btn_actualizarMascota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15sp"
+        android:onClick="onClick"
+        android:text="ACTUALIZAR"
+        android:textSize="25sp" />
+
+</LinearLayout>

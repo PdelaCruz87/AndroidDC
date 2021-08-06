@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Cuentos">
+
+    <fragment
+        android:id="@+id/frag1"
+        android:name="com.example.appfragment_19072021.Fragment1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        tools:layout="@layout/fragment_1" />
+
+    <fragment
+        android:id="@+id/frag2"
+        android:name="com.example.appfragment_19072021.Fragment2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        tools:layout="@layout/fragment_2" />
+
+    <fragment
+        android:id="@+id/frag3"
+        android:name="com.example.appfragment_19072021.Fragment3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        tools:layout="@layout/fragment_3" />
+
+    <fragment
+        android:id="@+id/frag4"
+        android:name="com.example.appfragment_19072021.Fragment4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        tools:layout="@layout/fragment_4" />
+
+    <fragment
+        android:id="@+id/frag5"
+        android:name="com.example.appfragment_19072021.Fragment5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        tools:layout="@layout/fragment_5" />
+
+
+</LinearLayout>
