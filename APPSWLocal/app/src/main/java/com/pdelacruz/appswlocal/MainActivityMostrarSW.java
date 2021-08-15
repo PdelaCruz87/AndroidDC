@@ -24,6 +24,7 @@ public class MainActivityMostrarSW extends AppCompatActivity implements Response
     ArrayList<ProductoVO> listaProductoVO;
     MetodosSW metodosSW = new MetodosSW();
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

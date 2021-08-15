@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="Indian_Red">#CD5C5C</color>
+    <color name="LihtCoral">#F08080</color>
+    <color name="Salmón">#FA8072</color>
+    <color name="Crimson">#DC143C</color>
+    <color name="Red">#FF0000</color>
+    <color name="Rosa">#FFC0CB</color>
+    <color name="Deep_Pink">#FF1493</color>
+    <color name="Coral">#FF7F50</color>
+    <color name="OrangeRed">#FF4500</color>
+    <color name="Orange">#FFA500</color>
+    <color name="Amarillo">#FFFF00</color>
+    <color name="Moccasin">#FFE4B5</color>
+    <color name="DarkKhaki">#BDB76B</color>
+    <color name="Plum">#DDA0DD</color>
+    <color name="Fucsia">#FF00FF</color>
+
+   </resources>
